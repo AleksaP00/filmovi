@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-/*Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
@@ -26,4 +26,4 @@ Route::middleware('auth:sanctum')->group( function () {
     Route::resource('zanrovi', \App\Http\Controllers\ZanrController::class);
     Route::resource('filmovi', \App\Http\Controllers\FilmController::class);
     Route::resource('projekcije', \App\Http\Controllers\ProjekcijaController::class);
-});*/
+});

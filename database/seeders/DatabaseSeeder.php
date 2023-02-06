@@ -11,11 +11,11 @@ class DatabaseSeeder extends Seeder
      *
      * @return void
      */
-   /* public function run()
+    public function run()
     {
        $this->call(UserS::class);
        $this->call(ZanrS::class);
        $this->call(FilmS::class);
        $this->call(ProjekcijaS::class);
-    } */
+    } 
 }
